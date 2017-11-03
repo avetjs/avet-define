@@ -2,7 +2,7 @@
 
 exports.define = {};
 
-exports.babel = (babelConfig, babel, config) => {
+exports.babel = (babelConfig, config) => {
   bableConfig.plugins.push([
     require.resolve('babel-plugin-transform-define'),
     config.define
