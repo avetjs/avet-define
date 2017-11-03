@@ -11,10 +11,6 @@
     "avet-plugin",
     "define"
   ],
-  "scripts": {
-    "build": "avet-bin build",
-    "prepublish": "avet-bin build"
-  },
   "dependencies": {
     "babel-plugin-transform-define": "^1.3.0"
   },
